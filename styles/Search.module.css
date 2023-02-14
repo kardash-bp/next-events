@@ -1,0 +1,12 @@
+.search {
+  width: 250px;
+  height: 2.2rem;
+  padding: 0.35rem;
+  border: 1px #777 solid;
+  border-radius: 0.3rem;
+}
+.searchForm {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}

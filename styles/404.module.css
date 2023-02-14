@@ -1,0 +1,21 @@
+.error {
+  width: 100vw;
+  height: auto;
+  text-align: center;
+}
+
+.error img {
+  object-fit: contain;
+  z-index: -10;
+}
+.error a {
+  z-index: 99;
+  font-size: 2rem;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+.error a:hover {
+  color: crimson;
+  border-bottom: 2px solid crimson;
+}

@@ -1,0 +1,17 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+/* .pagination a {
+  width: 2rem;
+  text-align: center;
+  padding: 0.2rem;
+  border: 1px solid rgba(112, 128, 144, 0.795);
+  border-radius: 0.5rem;
+  transition: all 0.25s ease;
+}
+.pagination a:hover {
+  border-color: steelblue;
+  color: black;
+} */
