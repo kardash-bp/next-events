@@ -23,6 +23,12 @@
   justify-content: center;
   list-style: none;
 }
+.header li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+}
 
 .logo {
   color: red;

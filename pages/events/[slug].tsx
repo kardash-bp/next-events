@@ -62,6 +62,7 @@ const EventPage = ({ evt, id }: { evt: Evt; id: number }) => {
       }
     }
   }
+
   return (
     <Layout>
       <div className={s.event}>
@@ -75,7 +76,8 @@ const EventPage = ({ evt, id }: { evt: Evt; id: number }) => {
           </button>
         </div>
         <div>
-          {new Date(evt.date).toLocaleDateString('sr-RS')} at {evt.time}
+          {evt?.date && new Date(evt.date).toLocaleDateString('sr-RS')} at{' '}
+          {evt?.time}
         </div>
         <h1>{evt.name}</h1>
         {evt.image.data && Object.keys(evt.image.data) && (

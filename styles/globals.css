@@ -34,7 +34,12 @@ h1 {
   border: 0;
   border-radius: 5px;
 }
-
+.btn-blue {
+  background-color: rgb(141, 194, 238);
+  border: transparent;
+  border-radius: 5px;
+  outline: none;
+}
 .btn:hover {
   opacity: 0.9;
 }

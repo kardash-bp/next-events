@@ -22,3 +22,18 @@ export type Pagination = {
   pageCount: number
   total: number
 }
+export type UserType = {
+  id: number
+  username: string
+  email: string
+  password: string
+  confirm: string
+}
+export type AuthContextType = {
+  user: Partial<UserType> | null;
+  error: string | null
+  register: ({ username, email, password }: Partial<UserType>) => void;
+  login: ({ email, password }: Partial<UserType>) => void;
+  logout: () => void;
+  isLoggedIn: () => Promise<void>;
+};

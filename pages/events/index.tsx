@@ -22,9 +22,6 @@ const Events = ({
   events: StrapiEvent[]
   pagination: Pagination
 }) => {
-  console.log(events)
-  console.log(pagination)
-
   return (
     <Layout>
       <h1>Events</h1>
